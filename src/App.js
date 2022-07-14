@@ -17,9 +17,11 @@ export default function App() {
         gap: '1rem',
         alignItems: 'flex-start'
         }}>
-          <BudgetCard name='Entertainment' amount={200} max={1000}>
-
-          </BudgetCard>
+          <BudgetCard
+            name='Entertainment'
+            amount={200}
+            max={1000}
+          />
       </div>
     </Container>
   )
