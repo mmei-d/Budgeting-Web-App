@@ -32,7 +32,7 @@ export default function BudgetCard(props) {
                 {!props.hideButtons && 
                     <Stack direction='horizontal' gap='2' className='mt-4'>
                         <Button variant='outline-primary' className='ms-auto' onClick={props.onAddExpenseClick}>Add Expense</Button>
-                        <Button variant='outline-secondary'>View Expenses</Button>
+                        <Button variant='outline-secondary' onClick={props.onViewExpensesClick}>View Expenses</Button>
                     </Stack>
                 }  
             </Card.Body>
